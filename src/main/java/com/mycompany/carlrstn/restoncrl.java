@@ -69,7 +69,6 @@ public class restoncrl extends javax.swing.JFrame {
         jtfAddress = new javax.swing.JTextField();
         btnRegister = new javax.swing.JButton();
         jLabel20 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -306,12 +305,11 @@ public class restoncrl extends javax.swing.JFrame {
         btnRegister.setText("Register");
         getContentPane().add(btnRegister, new org.netbeans.lib.awtextra.AbsoluteConstraints(329, 723, -1, -1));
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL1-PC09\\Downloads\\bg.jpg")); // NOI18N
+        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/carlrstn/bg (1).jpg"))); // NOI18N
         jLabel20.setText("jLabel20");
-        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 770));
-
-        jButton1.setText("jButton1");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 730, -1, -1));
+        jLabel20.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -416,7 +414,6 @@ public class restoncrl extends javax.swing.JFrame {
     private javax.swing.JCheckBox cbIT;
     private javax.swing.JCheckBox cbMech;
     private javax.swing.JComboBox<String> cbSelectCourse;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
