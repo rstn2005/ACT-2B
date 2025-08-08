@@ -151,11 +151,11 @@ public class activity extends javax.swing.JFrame {
         }
         else if (player1 == 3 && player2 == 1)
         {
-        JOptionPane.showMessageDialog(null, "PLAYER 2 WIN", "R.P.S", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "PLAYER 1 WIN", "R.P.S", JOptionPane.INFORMATION_MESSAGE);
         }
         else if (player1 == 3 && player2 == 2)
         {
-        JOptionPane.showMessageDialog(null, "PLAYER 1 WIN", "R.P.S", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "PLAYER 2 WIN", "R.P.S", JOptionPane.INFORMATION_MESSAGE);
         }
         else if (player1 == 3 && player2 == 3)
         {
