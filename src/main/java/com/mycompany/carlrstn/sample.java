@@ -139,15 +139,16 @@ public class sample extends javax.swing.JFrame {
         int num1 = Integer.parseInt(txtnum1.getText());
         int num2 = Integer.parseInt(txtnum2.getText());
         
-        int sum = num1 + num2;
-        int diff = num1 - num2;
-        int prod = num1 * num2;
-        int qout = num1 / num2;
+        int sum, prod, diff, quo;
+        sum = num1 + num2;
+        diff = num1 - num2;
+        prod = num1 * num2;
+        quo = num1 / num2;
         
         jLabel3.setText("The sum is :  " + sum);
         jLabel4.setText("The difference is : " + diff);
         jLabel5.setText("The product is : " + prod);
-        jLabel6.setText("The quotient is : " + qout);
+        jLabel6.setText("The quotient is : " + quo);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
